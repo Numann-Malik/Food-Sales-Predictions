@@ -31,8 +31,12 @@ Below are a subset of exploratory and explanatory data visualizations to help us
 Below we state the R^2 and mean squared error scores for our two models:
 
 - Linear Regression Model
--- LR Model Training R2: 0.6712693760364781
--- LR Model Testing R2: -9.996148242813593e+19
+- - LR Model Training R2: 0.6712693760364781
+- - LR Model Testing R2: -9.996148242813593e+19
+- - LR Model Training RMSE: 986.3385424596464
+- - LR Model Testing RMSE: 16606970213579.328
+
+Simple Regression Tree Model:
 
 ## Final recommendations
 
