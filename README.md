@@ -4,8 +4,9 @@ Numann Malik
 
 ## Objectives
 
-- We help the retailer understand the properties of products and outlets that play crucial roles in increasing sales.
-- We completed statistical analyses that might help us understand, explain, or model with our data. This includes a Histogram to view the distributions of various features in our dataset, aBoxplot to view statistical summaries of various features in our dataset, and a Heatmap of the correlation between features.
+- Our main goal is to help the retailer understand the properties of products and outlets that play crucial roles in increasing sales.
+- After cleaning the data we completed statistical analyses that might help us understand, explain, or model with our data. This includes a Histogram to view the distributions of various features in our dataset, aBoxplot to view statistical summaries of various features in our dataset, and a Heatmap of the correlation between features.
+- We built several data visualizations to help our stakeholders better understand trends in the data.
 - By using machine learning, we help the retailer to make predictions about future sales based on the data provided.
 - Finally, we built a linear regression model and a simple regression tree model on our data set. These are to help the retailer understand the properties of products and outlets that play crucial roles in predicting sales.
 
@@ -17,7 +18,7 @@ Below is a key for what each column in our data set represents:
 
 ## Visual insights from the data
 
-Below are a subset of eploratory and explanatory data visualizations:
+Below are a subset of exploratory and explanatory data visualizations to help us understand any trends in the data:
 
 ![MRP](MRP.png)
 
@@ -27,7 +28,11 @@ Below are a subset of eploratory and explanatory data visualizations:
 
 ## Summary of the model and its evaluation metrics
 
--
+Below we state the R^2 and mean squared error scores for our two models:
+
+- Linear Regression Model
+-- LR Model Training R2: 0.6712693760364781
+-- LR Model Testing R2: -9.996148242813593e+19
 
 ## Final recommendations
 
