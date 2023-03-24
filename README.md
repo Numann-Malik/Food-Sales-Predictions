@@ -47,6 +47,22 @@ Below we state the R squared and mean squared error scores for our two models:
  - DT Model Testing R2: 0.5960039728227073
  - DT Model Training RMSE: 1082.281287111312
  - DT Model Testing RMSE: 1055.7536944506849
+ 
+## Linear Regression Coefficients Interpretations:
+
+![LR](LR.png)
+
+- Intercept: Our model assumed a baseline of 2383
+- Products that come from Outlet OUT027 or a Type 3 Supermarket increases sales by 733.3
+- Products that come from a Grocery Store decreases sales by 1034.56
+
+## Random Forest Feautures Importance:
+
+![RF](RF.png)
+
+- By far MRP (Maximum retail Price) has the most importance in predicting sales
+- This is followed up in second place by products sold in Grocery Stores.
+- The next three important features are item visibility, item weight, and products coming out of Type 3 Supermarkets.
 
 ## Final recommendations
 
