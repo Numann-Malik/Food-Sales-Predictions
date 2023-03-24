@@ -56,13 +56,40 @@ Below we state the R squared and mean squared error scores for our two models:
 - Products that come from Outlet OUT027 or a Type 3 Supermarket increases sales by 733.3
 - Products that come from a Grocery Store decreases sales by 1034.56
 
-## Random Forest Feautures Importance:
+## Random Forest Features Importance:
 
 ![RF](RF.png)
 
 - By far MRP (Maximum retail Price) has the most importance in predicting sales
 - This is followed up in second place by products sold in Grocery Stores.
 - The next three important features are item visibility, item weight, and products coming out of Type 3 Supermarkets.
+
+## Summary Plot (Bar):
+
+<img src="images/summary_plot_bar.png" width=60%>
+
+Comparing the most important features according to SHAP vs. our original feature importances:
+- The top 2 MRP and Grocery Store are the same.
+- However Type 3 Supermarket, Outlet OUT027, and Item Visibility, appear to be the next 3 important features according to SHAP.
+- While Item Visibility, Item Weight, and Type 3 Supermarket, are the next in our original.
+
+## Summary Plot (Dot):
+
+<img src="images/summary_plot_dot.png" width=400px>
+
+MRP had the largest effect on the model's predictions.
+
+- Because red values are on the right (positive), we can see that the larger the MRP, the more likely the model would predict higher sales.
+- We can see that having a higher MRP pushed the model's prediction heavily towards higher sales.
+
+Grocery Stores had the second largest effect on the model's predictions.
+
+- The red values are on the far left (negative) while the blue dots are on the center right, so that if food items were from grocery stores, then the model is much LESS likely to predict higher sales.
+
+Type 3 Supermarket had the third largest effect on the model's predictions.
+
+- The more products were from a type 3 supermarket, the more likely the model would predict higher sales.
+- Notice that the blue dots are only slightly to the left of the 0-line, indicating that the model is only slightly less likely to predict lower sales from Type 3 supermarkets.
 
 ## Final recommendations
 
