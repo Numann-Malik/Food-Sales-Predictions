@@ -56,7 +56,7 @@ Below we state the R squared and mean squared error scores for our two models:
 - Products that come from Outlet OUT027 or a Type 3 Supermarket increases sales by 733.3
 - Products that come from a Grocery Store decreases sales by 1034.56
 
-## Random Forest Feautures Importance:
+## Random Forest Features Importance:
 
 ![RF](RF.png)
 
