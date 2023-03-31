@@ -64,7 +64,7 @@ Below we state the R squared and mean squared error scores for our two models:
 - This is followed up in second place by products sold in Grocery Stores.
 - The next three important features are item visibility, item weight, and products coming out of Type 3 Supermarkets.
 
-## Summary Plot (Bar):
+## Global Explanations:
 
 <img src="images/summary_plot_bar.png" width=60%>
 
@@ -72,8 +72,6 @@ Comparing the most important features according to SHAP vs. our original feature
 - The top 2 MRP and Grocery Store are the same.
 - However Type 3 Supermarket, Outlet OUT027, and Item Visibility, appear to be the next 3 important features according to SHAP.
 - While Item Visibility, Item Weight, and Type 3 Supermarket, are the next in our original.
-
-## Summary Plot (Dot):
 
 <img src="images/summary_plot_dot.png" width=400px>
 
@@ -90,6 +88,31 @@ Type 3 Supermarket had the third largest effect on the model's predictions.
 
 - The more products were from a type 3 supermarket, the more likely the model would predict higher sales.
 - Notice that the blue dots are only slightly to the left of the 0-line, indicating that the model is only slightly less likely to predict lower sales from Type 3 supermarkets.
+
+## Local Explanations:
+
+<img src="images/LIME1.png" width=400px>
+<img src="images/IFP1.png" width=400px>
+
+Two features positively influenced the target sale value:
+- High Item_MRP	266.69
+- Low Item_Visibility 0.01
+
+Three of the most impactful features that negatively influences the target value:
+- It is sold in a grocery store
+- It is not sold in a Type 3 supermarket
+- It is not sold in Outlet 27
+
+<img src="images/LIME2.png" width=400px>
+<img src="images/IFP2.png" width=400px>
+
+The only feature that positively influenced the target sale value:
+- It is not a starchy food
+
+Three of the most impactful features that negatively influences the target value:
+- It is sold in a grocery store
+- It has a relatively low MRP
+- It is not sold in a Type 3 Supermarket
 
 ## Final recommendations
 
