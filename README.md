@@ -66,14 +66,16 @@ Below we state the R squared and mean squared error scores for our two models:
 
 ## Global Explanations:
 
-<img src="images/summary_plot_bar.png" width=60%>
+<img src="images/summary_plot_bar.png" width=500px>
+</center>
 
 Comparing the most important features according to SHAP vs. our original feature importances:
 - The top 2 MRP and Grocery Store are the same.
 - However Type 3 Supermarket, Outlet OUT027, and Item Visibility, appear to be the next 3 important features according to SHAP.
 - While Item Visibility, Item Weight, and Type 3 Supermarket, are the next in our original.
 
-<img src="images/summary_plot_dot.png" width=400px>
+<img src="images/summary_plot_dot.png" width=500px>
+</center>
 
 MRP had the largest effect on the model's predictions.
 
