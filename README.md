@@ -79,8 +79,8 @@ Comparing the most important features according to SHAP vs. our original feature
 - However Type 3 Supermarket, Outlet OUT027, and Item Visibility, appear to be the next 3 important features according to SHAP.
 - While Item Visibility, Item Weight, and Type 3 Supermarket, are the next in our original.
 
+<p align="center">
 <img src="images/summary_plot_dot.png" width=500px>
-</center>
 
 MRP had the largest effect on the model's predictions.
 
@@ -98,9 +98,9 @@ Type 3 Supermarket had the third largest effect on the model's predictions.
 
 ## Local Explanations:
 
-<img src="images/LIME1.png" width=800px>
-<img src="images/IFP1.png" width=800px>
-</center>
+<p align="center">
+<img src="images/LIME1.png" width=500px>
+<img src="images/IFP1.png" width=500px>
 
 Two features positively influenced the target sale value:
 - High Item_MRP	266.69
