@@ -100,6 +100,7 @@ Type 3 Supermarket had the third largest effect on the model's predictions.
 
 <p align="center">
 <img src="images/LIME1.png" width=500px>
+<p align="center">
 <img src="images/IFP1.png" width=500px>
 
 Two features positively influenced the target sale value:
@@ -111,9 +112,10 @@ Three of the most impactful features that negatively influences the target value
 - It is not sold in a Type 3 supermarket
 - It is not sold in Outlet 27
 
-<img src="images/LIME2.png" width=800px>
-<img src="images/IFP2.png" width=800px>
-</center>
+<p align="center">
+<img src="images/LIME2.png" width=500px>
+<p align="center">
+<img src="images/IFP2.png" width=500px>
 
 The only feature that positively influenced the target sale value:
 - It is not a starchy food
