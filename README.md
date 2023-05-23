@@ -26,7 +26,7 @@ Below are a subset of exploratory and explanatory data visualizations to help us
 <img src="MRP.png" width=600px>
 
 <p align="center">
-<img src="FT.png" width=600px>
+<img src="FT.png" width=800px>
 
 <p align="center">
 <img src="OS.png" width=600px>
