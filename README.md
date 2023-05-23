@@ -23,13 +23,13 @@ Below is a key for what each column in our data set represents:
 Below are a subset of exploratory and explanatory data visualizations to help us understand any trends in the data:
 
 <p align="center">
-<img src="MRP.png" width=500px>
+<img src="MRP.png" width=600px>
 
 <p align="center">
-<img src="FT.png" width=500px>
+<img src="FT.png" width=600px>
 
 <p align="center">
-<img src="OS.png" width=500px>
+<img src="OS.png" width=600px>
 
 ## Summary of the model and its evaluation metrics
 
@@ -56,7 +56,7 @@ Below we state the R squared and mean squared error scores for our two models:
 ## Linear Regression Coefficients Interpretations:
 
 <p align="center">
-<img src="images/LR.png" width=500px>
+<img src="LR.png" width=500px>
 
 - Intercept: Our model assumed a baseline of 2383
 - Products that come from Outlet OUT027 or a Type 3 Supermarket increases sales by 733.3
@@ -65,7 +65,7 @@ Below we state the R squared and mean squared error scores for our two models:
 ## Random Forest Features Importance:
 
 <p align="center">
-<img src="images/RF.png" width=500px>
+<img src="RF.png" width=500px>
 
 - By far MRP (Maximum retail Price) has the most importance in predicting sales
 - This is followed up in second place by products sold in Grocery Stores.
@@ -101,9 +101,9 @@ Type 3 Supermarket had the third largest effect on the model's predictions.
 ## Local Explanations:
 
 <p align="center">
-<img src="images/LIME1.png" width=600px>
+<img src="images/LIME1.png" width=700px>
 <p align="center">
-<img src="images/IFP1.png" width=600px>
+<img src="images/IFP1.png" width=700px>
 
 Two features positively influenced the target sale value:
 - High Item_MRP	266.69
@@ -115,9 +115,9 @@ Three of the most impactful features that negatively influences the target value
 - It is not sold in Outlet 27
 
 <p align="center">
-<img src="images/LIME2.png" width=600px>
+<img src="images/LIME2.png" width=700px>
 <p align="center">
-<img src="images/IFP2.png" width=600px>
+<img src="images/IFP2.png" width=700px>
 
 The only feature that positively influenced the target sale value:
 - It is not a starchy food
