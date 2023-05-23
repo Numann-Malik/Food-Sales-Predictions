@@ -71,8 +71,8 @@ Below we state the R squared and mean squared error scores for our two models:
 
 ## Global Explanations:
 
+<p align="center">
 <img src="images/summary_plot_bar.png" width=500px>
-</center>
 
 Comparing the most important features according to SHAP vs. our original feature importances:
 - The top 2 MRP and Grocery Store are the same.
