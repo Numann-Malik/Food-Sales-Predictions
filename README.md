@@ -15,17 +15,21 @@ Numann Malik
 
 Below is a key for what each column in our data set represents:
 
-![DD](DD.png)
+<p align="center">
+<img src="DD.png" width=500px>
 
 ## Visual insights from the data
 
 Below are a subset of exploratory and explanatory data visualizations to help us understand any trends in the data:
 
-![MRP](MRP.png)
+<p align="center">
+<img src="MRP.png" width=500px>
 
-![FT](FT.png)
+<p align="center">
+<img src="FT.png" width=500px>
 
-![OS](OS.png)
+<p align="center">
+<img src="OS.png" width=500px>
 
 ## Summary of the model and its evaluation metrics
 
